@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACEC620422B1C9430018C6C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEC620322B1C9430018C6C7 /* AppDelegate.swift */; };
+		ACEC620622B1C9430018C6C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEC620522B1C9430018C6C7 /* ViewController.swift */; };
+		ACEC620922B1C9430018C6C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEC620722B1C9430018C6C7 /* Main.storyboard */; };
+		ACEC620B22B1C9450018C6C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACEC620A22B1C9450018C6C7 /* Assets.xcassets */; };
+		ACEC620E22B1C9450018C6C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEC620C22B1C9450018C6C7 /* LaunchScreen.storyboard */; };
+		ACEC621922B1C9450018C6C7 /* How_Long_Since_NotifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEC621822B1C9450018C6C7 /* How_Long_Since_NotifierTests.swift */; };
+		ACEC622422B1C9450018C6C7 /* How_Long_Since_NotifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEC622322B1C9450018C6C7 /* How_Long_Since_NotifierUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACEC621522B1C9450018C6C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACEC61F822B1C9430018C6C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACEC61FF22B1C9430018C6C7;
+			remoteInfo = "How Long Since Notifier";
+		};
+		ACEC622022B1C9450018C6C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACEC61F822B1C9430018C6C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACEC61FF22B1C9430018C6C7;
+			remoteInfo = "How Long Since Notifier";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACEC620022B1C9430018C6C7 /* How Long Since Notifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "How Long Since Notifier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACEC620322B1C9430018C6C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACEC620522B1C9430018C6C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACEC620822B1C9430018C6C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACEC620A22B1C9450018C6C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACEC620D22B1C9450018C6C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACEC620F22B1C9450018C6C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACEC621422B1C9450018C6C7 /* How Long Since NotifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "How Long Since NotifierTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACEC621822B1C9450018C6C7 /* How_Long_Since_NotifierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = How_Long_Since_NotifierTests.swift; sourceTree = "<group>"; };
+		ACEC621A22B1C9450018C6C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACEC621F22B1C9450018C6C7 /* How Long Since NotifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "How Long Since NotifierUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACEC622322B1C9450018C6C7 /* How_Long_Since_NotifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = How_Long_Since_NotifierUITests.swift; sourceTree = "<group>"; };
+		ACEC622522B1C9450018C6C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACEC61FD22B1C9430018C6C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEC621122B1C9450018C6C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEC621C22B1C9450018C6C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACEC61F722B1C9430018C6C7 = {
+			isa = PBXGroup;
+			children = (
+				ACEC620222B1C9430018C6C7 /* How Long Since Notifier */,
+				ACEC621722B1C9450018C6C7 /* How Long Since NotifierTests */,
+				ACEC622222B1C9450018C6C7 /* How Long Since NotifierUITests */,
+				ACEC620122B1C9430018C6C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACEC620122B1C9430018C6C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACEC620022B1C9430018C6C7 /* How Long Since Notifier.app */,
+				ACEC621422B1C9450018C6C7 /* How Long Since NotifierTests.xctest */,
+				ACEC621F22B1C9450018C6C7 /* How Long Since NotifierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACEC620222B1C9430018C6C7 /* How Long Since Notifier */ = {
+			isa = PBXGroup;
+			children = (
+				ACEC620322B1C9430018C6C7 /* AppDelegate.swift */,
+				ACEC620522B1C9430018C6C7 /* ViewController.swift */,
+				ACEC620722B1C9430018C6C7 /* Main.storyboard */,
+				ACEC620A22B1C9450018C6C7 /* Assets.xcassets */,
+				ACEC620C22B1C9450018C6C7 /* LaunchScreen.storyboard */,
+				ACEC620F22B1C9450018C6C7 /* Info.plist */,
+			);
+			path = "How Long Since Notifier";
+			sourceTree = "<group>";
+		};
+		ACEC621722B1C9450018C6C7 /* How Long Since NotifierTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACEC621822B1C9450018C6C7 /* How_Long_Since_NotifierTests.swift */,
+				ACEC621A22B1C9450018C6C7 /* Info.plist */,
+			);
+			path = "How Long Since NotifierTests";
+			sourceTree = "<group>";
+		};
+		ACEC622222B1C9450018C6C7 /* How Long Since NotifierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACEC622322B1C9450018C6C7 /* How_Long_Since_NotifierUITests.swift */,
+				ACEC622522B1C9450018C6C7 /* Info.plist */,
+			);
+			path = "How Long Since NotifierUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACEC61FF22B1C9430018C6C7 /* How Long Since Notifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACEC622822B1C9450018C6C7 /* Build configuration list for PBXNativeTarget "How Long Since Notifier" */;
+			buildPhases = (
+				ACEC61FC22B1C9430018C6C7 /* Sources */,
+				ACEC61FD22B1C9430018C6C7 /* Frameworks */,
+				ACEC61FE22B1C9430018C6C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "How Long Since Notifier";
+			productName = "How Long Since Notifier";
+			productReference = ACEC620022B1C9430018C6C7 /* How Long Since Notifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACEC621322B1C9450018C6C7 /* How Long Since NotifierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACEC622B22B1C9450018C6C7 /* Build configuration list for PBXNativeTarget "How Long Since NotifierTests" */;
+			buildPhases = (
+				ACEC621022B1C9450018C6C7 /* Sources */,
+				ACEC621122B1C9450018C6C7 /* Frameworks */,
+				ACEC621222B1C9450018C6C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACEC621622B1C9450018C6C7 /* PBXTargetDependency */,
+			);
+			name = "How Long Since NotifierTests";
+			productName = "How Long Since NotifierTests";
+			productReference = ACEC621422B1C9450018C6C7 /* How Long Since NotifierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACEC621E22B1C9450018C6C7 /* How Long Since NotifierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACEC622E22B1C9450018C6C7 /* Build configuration list for PBXNativeTarget "How Long Since NotifierUITests" */;
+			buildPhases = (
+				ACEC621B22B1C9450018C6C7 /* Sources */,
+				ACEC621C22B1C9450018C6C7 /* Frameworks */,
+				ACEC621D22B1C9450018C6C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACEC622122B1C9450018C6C7 /* PBXTargetDependency */,
+			);
+			name = "How Long Since NotifierUITests";
+			productName = "How Long Since NotifierUITests";
+			productReference = ACEC621F22B1C9450018C6C7 /* How Long Since NotifierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACEC61F822B1C9430018C6C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Nicko Lee";
+				TargetAttributes = {
+					ACEC61FF22B1C9430018C6C7 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					ACEC621322B1C9450018C6C7 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = ACEC61FF22B1C9430018C6C7;
+					};
+					ACEC621E22B1C9450018C6C7 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = ACEC61FF22B1C9430018C6C7;
+					};
+				};
+			};
+			buildConfigurationList = ACEC61FB22B1C9430018C6C7 /* Build configuration list for PBXProject "How Long Since Notifier" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACEC61F722B1C9430018C6C7;
+			productRefGroup = ACEC620122B1C9430018C6C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACEC61FF22B1C9430018C6C7 /* How Long Since Notifier */,
+				ACEC621322B1C9450018C6C7 /* How Long Since NotifierTests */,
+				ACEC621E22B1C9450018C6C7 /* How Long Since NotifierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACEC61FE22B1C9430018C6C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEC620E22B1C9450018C6C7 /* LaunchScreen.storyboard in Resources */,
+				ACEC620B22B1C9450018C6C7 /* Assets.xcassets in Resources */,
+				ACEC620922B1C9430018C6C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEC621222B1C9450018C6C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEC621D22B1C9450018C6C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACEC61FC22B1C9430018C6C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEC620622B1C9430018C6C7 /* ViewController.swift in Sources */,
+				ACEC620422B1C9430018C6C7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEC621022B1C9450018C6C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEC621922B1C9450018C6C7 /* How_Long_Since_NotifierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEC621B22B1C9450018C6C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEC622422B1C9450018C6C7 /* How_Long_Since_NotifierUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACEC621622B1C9450018C6C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACEC61FF22B1C9430018C6C7 /* How Long Since Notifier */;
+			targetProxy = ACEC621522B1C9450018C6C7 /* PBXContainerItemProxy */;
+		};
+		ACEC622122B1C9450018C6C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACEC61FF22B1C9430018C6C7 /* How Long Since Notifier */;
+			targetProxy = ACEC622022B1C9450018C6C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACEC620722B1C9430018C6C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACEC620822B1C9430018C6C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACEC620C22B1C9450018C6C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACEC620D22B1C9450018C6C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACEC622622B1C9450018C6C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACEC622722B1C9450018C6C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACEC622922B1C9450018C6C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "How Long Since Notifier/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.How-Long-Since-Notifier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACEC622A22B1C9450018C6C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "How Long Since Notifier/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.How-Long-Since-Notifier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACEC622C22B1C9450018C6C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "How Long Since NotifierTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.How-Long-Since-NotifierTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/How Long Since Notifier.app/How Long Since Notifier";
+			};
+			name = Debug;
+		};
+		ACEC622D22B1C9450018C6C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "How Long Since NotifierTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.How-Long-Since-NotifierTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/How Long Since Notifier.app/How Long Since Notifier";
+			};
+			name = Release;
+		};
+		ACEC622F22B1C9450018C6C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "How Long Since NotifierUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.How-Long-Since-NotifierUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "How Long Since Notifier";
+			};
+			name = Debug;
+		};
+		ACEC623022B1C9450018C6C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "How Long Since NotifierUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.How-Long-Since-NotifierUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "How Long Since Notifier";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACEC61FB22B1C9430018C6C7 /* Build configuration list for PBXProject "How Long Since Notifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACEC622622B1C9450018C6C7 /* Debug */,
+				ACEC622722B1C9450018C6C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACEC622822B1C9450018C6C7 /* Build configuration list for PBXNativeTarget "How Long Since Notifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACEC622922B1C9450018C6C7 /* Debug */,
+				ACEC622A22B1C9450018C6C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACEC622B22B1C9450018C6C7 /* Build configuration list for PBXNativeTarget "How Long Since NotifierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACEC622C22B1C9450018C6C7 /* Debug */,
+				ACEC622D22B1C9450018C6C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACEC622E22B1C9450018C6C7 /* Build configuration list for PBXNativeTarget "How Long Since NotifierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACEC622F22B1C9450018C6C7 /* Debug */,
+				ACEC623022B1C9450018C6C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACEC61F822B1C9430018C6C7 /* Project object */;
+}
