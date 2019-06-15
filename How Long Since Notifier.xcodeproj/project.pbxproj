@@ -14,6 +14,7 @@
 		ACEC620E22B1C9450018C6C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEC620C22B1C9450018C6C7 /* LaunchScreen.storyboard */; };
 		ACEC621922B1C9450018C6C7 /* How_Long_Since_NotifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEC621822B1C9450018C6C7 /* How_Long_Since_NotifierTests.swift */; };
 		ACEC622422B1C9450018C6C7 /* How_Long_Since_NotifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEC622322B1C9450018C6C7 /* How_Long_Since_NotifierUITests.swift */; };
+		ACEC623222B231790018C6C7 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEC623122B231790018C6C7 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		ACEC621F22B1C9450018C6C7 /* How Long Since NotifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "How Long Since NotifierUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEC622322B1C9450018C6C7 /* How_Long_Since_NotifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = How_Long_Since_NotifierUITests.swift; sourceTree = "<group>"; };
 		ACEC622522B1C9450018C6C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACEC623122B231790018C6C7 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				ACEC620A22B1C9450018C6C7 /* Assets.xcassets */,
 				ACEC620C22B1C9450018C6C7 /* LaunchScreen.storyboard */,
 				ACEC620F22B1C9450018C6C7 /* Info.plist */,
+				ACEC623122B231790018C6C7 /* ViewController2.swift */,
 			);
 			path = "How Long Since Notifier";
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				ACEC620622B1C9430018C6C7 /* ViewController.swift in Sources */,
 				ACEC620422B1C9430018C6C7 /* AppDelegate.swift in Sources */,
+				ACEC623222B231790018C6C7 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
