@@ -10,13 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    //MARK: Properties
+    // 1) MARK: Properties
     @IBOutlet weak var timeDisplayLabel: UILabel!
+    @IBOutlet weak var timeIntervalLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        self.timeDisplayLabel.text = whatTime() + whatDate()
+        
+        // 2) Running my code
+        var timeInterval = timeBetweenDates()
+        self.timeDisplayLabel.text = whatTime() + whatDate() + "sdfsdfsdfsdfsdfsdfsdsdfsdfsdf"
+        self.timeIntervalLabel.text = "Time elapsed: \(timeInterval.year!) years, \(timeInterval.month!) months and \(timeInterval.day!) days"
     }
 
     override func didReceiveMemoryWarning() {
@@ -24,7 +29,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    // my own functions
+    // 3) My own functions
     func whatTime()-> String{
         let dateFormatter = DateFormatter()
         dateFormatter.timeStyle = .medium
@@ -40,29 +45,23 @@ class ViewController: UIViewController {
         return result
     }
     
-//    func dateDifference()-> String{
-//        let start = "2010-09-01"
-//        let end = "2010-09-05"
-//        
-//        let dateFormatter = DateFormatter()
-//        dateFormatter.dateFormat = "yyyy-MM-dd"
-//        
-//        let startDate:NSDate = dateFormatter.date(from: start)! as NSDate
-//        let endDate:NSDate = dateFormatter.date(from: end)! as NSDate
-//        
-//        let cal = NSCalendar.current
-//        
-//        
-//        let unit:NSCalendar.Unit = .day
-//        
-//        let components = cal.components(unit, fromDate: startDate, toDate: endDate, options: nil)
-//        
-//        return components
-//        
-//    let d = Date()
-//        
-//        
-//    }
+    // 4) Finally found something that worked from here www.stackoverflow.com/questions/40075850/swift-3-find-number-of-calendar-days-between-two-dates/40075983
+    
+    func timeBetweenDates()-> DateComponents{
+        let startDate = "06/02/2017"
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "dd/MM/yyyy"
+        let formatedStartDate = dateFormatter.date(from: startDate)
+        let currentDate = Date()
+        let components = Set<Calendar.Component>([.second, .minute, .hour, .day, .month, .year])
+        let differenceOfDate = Calendar.current.dateComponents(components, from: formatedStartDate!, to: currentDate)
+        return differenceOfDate
+    }
+    
+
+    
+    
+
 
 
 }

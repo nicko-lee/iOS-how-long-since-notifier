@@ -18,8 +18,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TFp-j5-ADc">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="200" translatesAutoresizingMaskIntoConstraints="NO" id="TFp-j5-ADc">
                                 <rect key="frame" x="168" y="323.5" width="39" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="200" translatesAutoresizingMaskIntoConstraints="NO" id="frP-aX-CEI" userLabel="Label 2">
+                                <rect key="frame" x="166" y="423.5" width="42" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -29,11 +35,14 @@
                         <constraints>
                             <constraint firstItem="TFp-j5-ADc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jCW-ti-sXX"/>
                             <constraint firstItem="TFp-j5-ADc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="q3E-Fz-zQw"/>
+                            <constraint firstItem="frP-aX-CEI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qym-ck-ZYa"/>
+                            <constraint firstItem="frP-aX-CEI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="100" id="zqE-PM-scl"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="timeDisplayLabel" destination="TFp-j5-ADc" id="8LL-Vq-Rya"/>
+                        <outlet property="timeIntervalLabel" destination="frP-aX-CEI" id="kto-Ug-4z8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
